@@ -14,6 +14,7 @@
 		F749C62E2BEABA5100B4123F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F749C62D2BEABA5100B4123F /* WebService.swift */; };
 		F749C6302BEABAF400B4123F /* RandomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F749C62F2BEABAF400B4123F /* RandomImage.swift */; };
 		F749C6332BEABDD800B4123F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F749C6322BEABDD800B4123F /* Constants.swift */; };
+		F749C6352BEADA3B00B4123F /* RandomImageListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F749C6342BEADA3B00B4123F /* RandomImageListVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		F749C62D2BEABA5100B4123F /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		F749C62F2BEABAF400B4123F /* RandomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImage.swift; sourceTree = "<group>"; };
 		F749C6322BEABDD800B4123F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F749C6342BEADA3B00B4123F /* RandomImageListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageListVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		F749C62A2BEABA1C00B4123F /* View Model */ = {
 			isa = PBXGroup;
 			children = (
+				F749C6342BEADA3B00B4123F /* RandomImageListVM.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				F749C6332BEABDD800B4123F /* Constants.swift in Sources */,
 				F749C6302BEABAF400B4123F /* RandomImage.swift in Sources */,
 				F749C62E2BEABA5100B4123F /* WebService.swift in Sources */,
+				F749C6352BEADA3B00B4123F /* RandomImageListVM.swift in Sources */,
 				F749C61F2BEAB6B000B4123F /* ContentView.swift in Sources */,
 				F749C61D2BEAB6B000B4123F /* ImageQuotesConcurrencyApp.swift in Sources */,
 			);
