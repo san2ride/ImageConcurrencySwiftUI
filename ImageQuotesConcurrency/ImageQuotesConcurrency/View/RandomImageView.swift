@@ -12,7 +12,18 @@ struct RandomImageView: View {
     @StateObject private var randomImageListVM = RandomImageListVM()
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List(randomImageListVM.randomImages) { randomImage in
+            HStack {
+                randomImage.image.map {
+                    Image(uiImage: $0)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                }
+                Text(randomImage.quote)
+            }
+        }.task {
+            await randomImageListVM.getRandomImages(ids: Array(100...120))
+        }
     }
 }
 
